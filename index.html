@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Etch Pad</title>
-    <link rel="stylesheet" a href="main.css">
+    <title>My Sketch Pad</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Etch-a-Sketch</h1>
-    <button class="reset"></button> 
+    <div id="main">
+        <div id="name">
+            <h1>Etch-a-Sketch</h1>
+            <div id="container"></div>
+            <div id="bottom">
+                <button id="clear" class="btn">CLEAR</button>
+                <button id="clear" class="fill">DRAW</button>
+                <button id="clear" class="fill">COLOR</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
